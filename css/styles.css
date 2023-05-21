@@ -45,7 +45,6 @@ h1 {
   text-align: center;
   font-size: 50px;
   margin-bottom: 25px;
-  padding-top: 60px;
 }
 
 .estilo-h1 {
@@ -398,118 +397,122 @@ a {
   text-decoration-line: underline;
 }
 
-/*Diseño de CARDS - Servicios*/
-#cards-servicios {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/*Estilo de GRIDS*/
+.grid-container1 {
+  display: grid;
+  grid-template-areas: "head head head" "menu modo main" "foot foot foot";
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 75px 150px 100px;
   justify-content: center;
-  gap: 10px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-@media (min-width: 768px) {
-  #cards-servicios {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-  }
-}
-@media (min-width: 992px) {
-  #cards-servicios {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-  }
-}
-.card-header {
-  background-image: linear-gradient(to right, rgb(224, 170, 245), aliceblue);
-  font-weight: bold;
-}
-
-.card-text {
-  color: rgb(226, 153, 43);
-}
-
-.card-title {
-  color: aliceblue;
-}
-
-.card-body {
-  color: white;
-  background-color: rgb(83, 17, 109);
-}
-
-.card-footer {
-  font-weight: bold;
-  font-size: smaller;
-  padding-top: 5px;
-  padding-bottom: 5px;
-}
-
-.párrafos-cards {
-  font-size: small;
-  color: black;
-  text-align: left;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
+  row-gap: 30px;
+  column-gap: 50px;
+  margin: 50px 50px;
   margin-left: 50px;
-  margin-right: 20px;
-  padding-bottom: 10px;
-}
-
-#container-cards1, #container-cards3, #container-cards5 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  align-content: space-around;
-  background-image: linear-gradient(to right, aliceblue, rgb(224, 170, 245));
-  color: black;
-  text-align: left;
-  padding: 10px;
-  grid-template-columns: repeat(1, 1fr);
+  margin-right: 50px;
+  text-align: center;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
-  #container-cards1, #container-cards3, #container-cards5 {
-    flex-direction: row;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 15px;
-    padding: 10px;
+  .grid-container1 {
+    display: grid;
+    grid-template-areas: "head head head aside" "menu modo main aside" "foot foot foot aside";
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 75px 150px 100px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 30px;
+    margin: 40px 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    font-weight: bold;
   }
 }
-#container-cards2, #container-cards4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(to right, rgb(224, 170, 245), aliceblue);
-  color: black;
-  text-align: left;
-  padding: 10px;
+.e {
+  grid-area: head;
+  border-style: groove;
+  padding-top: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, blueviolet, skyblue, blueviolet);
+  padding-bottom: 20px;
 }
 
-@media (min-width: 768px) {
-  #container-cards2, #container-cards4 {
-    flex-direction: row;
-    grid-template-rows: repeat(2, 1fr);
-    gap: 15px;
-    padding: 10px;
-  }
+.f {
+  grid-area: menu;
+  border: groove;
+  padding-top: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, blueviolet, skyblue, blueviolet);
+  padding-bottom: 30px;
 }
-.k {
+
+.g {
   grid-area: main;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-left: 20px;
+  border: groove;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, blueviolet, skyblue, blueviolet);
 }
 
-.h5-card {
+.i {
+  grid-area: modo;
+  border: groove;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, blueviolet, skyblue, blueviolet);
+}
+
+.j {
+  grid-area: foot;
+  border: groove;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, blueviolet, skyblue, blueviolet);
+}
+
+.titulo-explicación-grid {
+  font-size: small;
+  font-weight: bold;
   text-align: left;
-  text-decoration-line: underline;
+}
+
+.parrafo-grid {
+  padding-left: 50px;
+  text-align: left;
+}
+
+.detalle-info-grid {
+  padding-left: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+}
+
+.ul-foda {
+  list-style-type: square;
+  text-align: left;
+  padding-left: 70px;
+}
+
+/*Estilo de imágenes*/
+.librodecabeza {
+  border-radius: 50px;
+  margin: 20px;
+  width: 40%;
+}
+
+@media (min-width: 920px) {
+  .librodecabeza {
+    width: 50%;
+  }
+}
+.gradient-educación {
+  background-image: linear-gradient(to right, blue, white, blueviolet, skyblue);
 }
 
 /*Estilo formulario de contacto*/
