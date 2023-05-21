@@ -157,7 +157,6 @@ a {
   font-weight: 900;
   margin-bottom: 25px;
   padding-top: 60px;
-  font-variant-position: normal;
 }
 
 .uldiseñonav-1 {
@@ -196,6 +195,25 @@ a {
 .leyenda {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.info-mía {
+  font-size: "Roboto", sans-serif;
+  font-style: italic;
+  background-color: rgb(226, 153, 43);
+  color: black;
+  animation-duration: 2s;
+  animation-name: appear;
+  animation-iteration-count: infinite;
+}
+@keyframes appear {
+  80% {
+    opacity: 0;
+  }
+}
+
+.info {
+  background-color: rgb(226, 153, 43);
 }
 
 .linav-2 {
@@ -241,7 +259,7 @@ a {
     margin: 0 auto;
   }
 }
-.carousel-inner {
+.carousel-inner, #noticiasimg {
   height: 500px;
   margin-bottom: 50px;
   border-radius: 10%;
@@ -559,18 +577,15 @@ a {
 /*Estilo de iframes*/
 iframe {
   width: 400px;
-  height: 250px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  padding-left: 50px;
-  padding-right: 30px;
+  height: 230px;
+  padding: 20px 30px 30px 50px;
 }
 
 #noticiasimg {
   background-image: url(../img/personas-en-red-contacto.jpg);
   background-size: cover;
   background-attachment: fixed;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */

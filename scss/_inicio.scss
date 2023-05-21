@@ -3,7 +3,7 @@
     block-size: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
 
 @media (min-width: 768px) {
@@ -36,9 +36,7 @@
     font-weight: 900;
     margin-bottom: 25px;
     padding-top: 60px; 
-    font-variant-position:normal;
 }
-
 .uldiseñonav-1 {
     @include flex-1;
      font-weight: $font-weight-negrita;
@@ -71,4 +69,22 @@
 .leyenda {
     padding-top: 5px;
     padding-bottom: 5px;
+}
+.info-mía {
+    font-size: $font-family-4;
+    font-style: $font-style-3;
+    background-color:$color-sexto;
+    color: $color-tercero;
+    animation-duration: 2s;
+    animation-name:appear;
+    animation-iteration-count: infinite;
+    @keyframes appear {
+        80% {
+         opacity: 0;
+     }
+    }
+}
+.info {
+    background-color: $color-sexto;
+
 }
