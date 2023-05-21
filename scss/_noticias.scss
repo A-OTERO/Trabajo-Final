@@ -1,16 +1,14 @@
 /*Estilo de iframes*/
 iframe {
     width:400px;
-    height:250px;
-    padding-top: 20px;
-    padding-bottom: 30px;
-    padding-left: 50px;
-    padding-right: 30px;
+    height:230px;
+    padding: 20px 30px 30px 50px;
 }
 
 #noticiasimg {
     background-image: url(../img/personas-en-red-contacto.jpg);   
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 20px;
+    padding: 20px;
+    @extend .carousel-inner;   
 }
