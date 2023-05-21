@@ -1,0 +1,16 @@
+/*Estilo de iframes*/
+iframe {
+    width:400px;
+    height:250px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+
+#noticiasimg {
+    background-image: url(../img/personas-en-red-contacto.jpg);   
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+}

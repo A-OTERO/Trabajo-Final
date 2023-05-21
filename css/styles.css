@@ -86,7 +86,7 @@ h5 {
 h6 {
   font-weight: bold;
   font-size: larger;
-  color: rgb(83, 17, 109);
+  color: rgb(154, 32, 140);
   background-color: whitesmoke;
   border-radius: 20px;
   margin: 50px;
@@ -554,6 +554,23 @@ a {
   color: black;
   padding-top: 5px;
   margin-top: 15px;
+}
+
+/*Estilo de iframes*/
+iframe {
+  width: 400px;
+  height: 250px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+#noticiasimg {
+  background-image: url(../img/personas-en-red-contacto.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 20px;
 }
 
 /*# sourceMappingURL=styles.css.map */
