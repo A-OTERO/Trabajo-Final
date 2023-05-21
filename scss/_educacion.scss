@@ -1,0 +1,114 @@
+/*Estilo de GRIDS*/
+.grid-container1 {
+    display:grid;
+    grid-template-areas: "head head head" "menu modo main" "foot foot foot";
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 75px 150px 100px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 30px;
+    column-gap: 50px;
+    margin: 50px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    font-weight: bold;  
+}
+
+@media (min-width:768px) {
+    .grid-container1 {
+        display:grid;
+        grid-template-areas: "head head head aside" "menu modo main aside" "foot foot foot aside";
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 75px 150px 100px;
+        justify-content: center;
+        align-items: center;
+        row-gap: 10px;
+        column-gap: 30px;
+        margin: 40px 40px;
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: center;
+        font-weight: bold;    
+}
+}
+.e { grid-area:head;
+border-style:groove; 
+padding-top: 20px; 
+border-radius: 20px; 
+background-image:linear-gradient(to right, blueviolet, skyblue, blueviolet);
+padding-bottom: 20px;
+
+}
+
+.f { grid-area:menu;
+border: groove; 
+padding-top: 20px; 
+border-radius: 20px;
+background-image:linear-gradient(to right, blueviolet, skyblue, blueviolet);
+padding-bottom: 30px;
+}
+
+.g { grid-area:main;
+border:groove;
+padding-top: 20px; 
+padding-bottom: 20px;
+border-radius: 20px;
+background-image:linear-gradient(to right, blueviolet, skyblue, blueviolet);
+}
+
+.i {grid-area: modo;
+border: groove;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 20px;
+background-image:linear-gradient(to right, blueviolet, skyblue, blueviolet);
+}
+
+.j {grid-area: foot;
+border: groove;
+padding-top: 20px;
+padding-bottom: 20px;
+border-radius: 20px;
+background-image:linear-gradient(to right, blueviolet, skyblue, blueviolet);
+}
+
+.titulo-explicación-grid {
+    font-size:small;
+    font-weight: bold;
+    text-align: left;
+}
+
+.parrafo-grid {
+    padding-left: 50px;
+    text-align: left;
+}
+
+.detalle-info-grid {
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.ul-foda {
+    list-style-type: square;
+    text-align: left;
+    padding-left: 70px;
+}
+/*Estilo de imágenes*/
+.librodecabeza {
+    border-radius: 50px;
+    margin: 20px;
+    width: 40%;
+}
+
+@media (min-width: 920px) {
+    .librodecabeza {
+        width: 50%;
+}
+}
+
+.gradient-educación {
+    background-image: linear-gradient(to right, blue, white, blueviolet, skyblue);
+}
+

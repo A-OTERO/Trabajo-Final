@@ -1,0 +1,120 @@
+/* Colores de letras*/
+$color-primero: white;
+$color-segundo: rgb(154, 32, 140);
+$color-tercero: black;
+$color-cuarto: aliceblue;
+$color-quinto: whitesmoke;
+$color-sexto: rgb(226, 153, 43);
+
+/*Paleta de colores*/
+$color-1: rgb(218, 196, 196);
+$color-2: linear-gradient(to right, rgb(183, 129, 235), skyblue,rgb(183, 129, 235) );
+$color-3: blueviolet;
+$color-4: linear-gradient(to right, rgb(224, 170, 245), aliceblue);
+$color-5: rgb(83, 17, 109);
+$color-6: black;
+$color-7: linear-gradient(to right, blueviolet, skyblue, blueviolet);
+$color-8: linear-gradient(to right, blue, white, blueviolet, skyblue);
+
+
+/*Resoluciones de pantalla*/
+$celular: 480px;
+$tablet: 768px;
+$desktop: 992px;
+$desktop-xl: 1200px;
+
+/*Tipos de fuentes*/
+$font-family-1: 'Rubik', sans-serif;
+$font-family-2: 'Open Sans', sans-serif;
+$font-family-3: 'Montserrat', sans-serif;
+$font-family-4: 'Roboto', sans-serif;
+
+/*Font Styles*/
+$font-style-1: normal;
+$font-style-2: oblique;
+$font-style-3: italic;
+
+/*Font Sizes*/
+$font-size-L: large;
+$font-size-XL: larger;
+$font-size-M: medium;
+$font-size-S: small;
+$font-size-XS: smaller;
+
+/*Font weights*/
+$font-weight-negrita: bold;
+$font-weight-negritaplus:bolder;
+
+/*Estilos de bordes*/
+$border-style-1: dotted;
+$border-style-2: double;
+
+/*Alineaciones de texto*/
+$align-left: left;
+$align-right: right;
+$align-center: center;
+$text-align-center: center;
+$text-align-left: left;
+$text-align-right: right;
+
+/*Estilos de títulos*/
+@mixin estiloh1 {
+    color:$color-segundo;
+    font-style: $font-style-2;
+    font-variant-position:normal;
+    text-align: $align-center;
+    border-style: dotted;
+    padding-bottom: 20px;
+}
+
+@mixin estiloh2 {
+    color: aliceblue;
+    background-color: black;
+    font-style: normal;
+    font-size:larger;
+    font-weight:bold;
+}
+
+@mixin estiloh5 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: $font-size-M;
+    font-weight: $font-weight-negritaplus;
+    color: $color-segundo;
+    text-align: $text-align-left;
+    margin-left: 50px;
+}
+
+@mixin estiloh6 {
+    font-weight: $font-weight-negrita;
+    font-size: $font-size-XL;
+    color:$color-5;
+    background-color:$color-quinto;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+/*Estilos de Flex*/
+@mixin flex-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+@mixin flex-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;  
+}
+@mixin flex-3 {
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: space-around;
+}
+@mixin flex-4 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-around;
+    align-content: space-around;
+}

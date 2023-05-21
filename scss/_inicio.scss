@@ -1,0 +1,74 @@
+/*Estilo del logo*/
+.img-logo {
+    block-size: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px; 
+}
+
+@media (min-width: 768px) {
+    .img-logo {
+        margin-top: 30px;
+        width: 100%;
+}
+}
+/*Estilo del body*/
+#mainpicture {
+    background-image: url(../img/oficina-inicio.jpg);   
+    background-size:cover;
+    background-attachment:fixed; 
+}
+
+/*Estilo de ul*/
+#navindex {
+    background-color: $color-1;
+}
+.estilo-h1 {
+    @include estiloh1;
+    font-size: 40px;
+    font-weight: 900;
+}
+.estilo-h1-main {
+    color: $color-primero;
+    font-style: $font-style-2;
+    text-align: $align-center;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 25px;
+    padding-top: 60px; 
+    font-variant-position:normal;
+}
+
+.uldiseñonav-1 {
+    @include flex-1;
+     font-weight: $font-weight-negrita;
+     font-size:25px;
+     margin: 10px 30px;
+     padding-bottom: 50px;
+     gap: 15px;
+ }
+ @media (min-width: 768px) {
+    .uldiseñonav-1 {
+       @include flex-3;
+        margin-top: 30px;
+}
+}
+ .linav-1 {
+    background-image: $color-2;
+    border-style: $border-style-2;
+    border-color: $color-6;
+    color: $color-6;
+    padding: 5px 10px;
+} 
+.linav-1{
+    &:hover{
+        color: $color-quinto;
+} 
+}
+
+/*Estilo del footer de inicio*/
+
+.leyenda {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,74 @@
+
+.linav-2 {
+    background-color: $color-quinto;
+    font-size: $font-size-M;
+    padding: 5px 10px;
+    border-radius: 20px;   
+}
+
+.uldiseñonav-2 {
+   @include flex-1;
+    font-weight: $font-weight-negrita;
+    font-size:25px;
+    padding-top: 30px;
+    padding-bottom: 20px; 
+    margin: 30px 5px;
+    gap: 15px;
+}
+@media (min-width:768px) {
+    .uldiseñonav-2 {
+    @include flex-3;
+   }
+}
+
+.estilo-h1 {
+    @include estiloh1;   
+}
+
+/*Estilo del carrousel*/
+@media (min-width:50px) {
+    #carouselExampleIndicators {
+        width:50%;
+        margin: 0 auto;
+    }    
+}
+
+.carousel-inner {
+    height: 500px;
+    margin-bottom: 50px;
+    border-radius: 10%;
+}
+/*Estilos de íconos*/
+.estilo-ícono {
+    margin: 0 auto;
+}
+
+#section-icons {
+@include flex-4;
+ 
+}
+
+.icono-text {
+    display: flex;
+    text-align: left;  
+}
+
+#equipo {
+    img {
+        border-style: ridge;
+        width:100%;
+        height: 50%;
+        margin: 0 auto;
+        height: 400px;
+        margin-bottom: 50px;
+        padding: 10px 10px 10px 10px;
+        background-color: $color-sexto;  
+    }
+}
+.card-equipo {
+        width: 100%;
+        height: 50%;
+        margin: 10px 10px;
+        padding: 5px;
+     
+}

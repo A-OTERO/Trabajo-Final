@@ -1,0 +1,556 @@
+@charset "UTF-8";
+/* Colores de letras*/
+/*Paleta de colores*/
+/*Resoluciones de pantalla*/
+/*Tipos de fuentes*/
+/*Font Styles*/
+/*Font Sizes*/
+/*Font weights*/
+/*Estilos de bordes*/
+/*Alineaciones de texto*/
+/*Estilos de títulos*/
+/*Estilos de Flex*/
+/*Estilo del header*/
+#arriba {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.header-pages {
+  background-color: rgb(218, 196, 196);
+}
+
+/*Estilos de body*/
+body {
+  background-color: rgb(218, 196, 196);
+}
+
+/*Estilos de footer*/
+footer, .caba, .footer-redes {
+  background-position-y: center;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+/*Estilos de títulos e hipervínculos*/
+h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-style: oblique;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 25px;
+  padding-top: 60px;
+}
+
+.estilo-h1 {
+  color: rgb(154, 32, 140);
+  font-style: oblique;
+  font-variant-position: normal;
+  text-align: center;
+  border-style: dotted;
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 20px;
+}
+
+h2 {
+  color: white;
+  background-color: black;
+}
+
+.estilo-h2 {
+  color: aliceblue;
+  background-color: black;
+  font-style: normal;
+  font-size: larger;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+  color: rgb(154, 32, 140);
+  text-align: left;
+  margin-left: 50px;
+}
+
+h6 {
+  font-weight: bold;
+  font-size: larger;
+  color: rgb(83, 17, 109);
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: darkviolet;
+  font-size: x-large;
+  list-style-type: none;
+}
+
+.a-especial {
+  color: black;
+  font-size: large;
+}
+.a-especial:hover {
+  color: black;
+  font-size: large;
+  font-style: italic;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/*Estilo del logo*/
+.img-logo {
+  block-size: 400px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+@media (min-width: 768px) {
+  .img-logo {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+/*Estilo del body*/
+#mainpicture {
+  background-image: url(../img/oficina-inicio.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Estilo de ul*/
+#navindex {
+  background-color: rgb(218, 196, 196);
+}
+
+.estilo-h1 {
+  color: rgb(154, 32, 140);
+  font-style: oblique;
+  font-variant-position: normal;
+  text-align: center;
+  border-style: dotted;
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.estilo-h1-main {
+  color: white;
+  font-style: oblique;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 900;
+  margin-bottom: 25px;
+  padding-top: 60px;
+  font-variant-position: normal;
+}
+
+.uldiseñonav-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 10px 30px;
+  padding-bottom: 50px;
+  gap: 15px;
+}
+
+@media (min-width: 768px) {
+  .uldiseñonav-1 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+    margin-top: 30px;
+  }
+}
+.linav-1 {
+  background-image: linear-gradient(to right, rgb(183, 129, 235), skyblue, rgb(183, 129, 235));
+  border-style: double;
+  border-color: black;
+  color: black;
+  padding: 5px 10px;
+}
+
+.linav-1:hover {
+  color: whitesmoke;
+}
+
+/*Estilo del footer de inicio*/
+.leyenda {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.linav-2 {
+  background-color: whitesmoke;
+  font-size: medium;
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+
+.uldiseñonav-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin: 30px 5px;
+  gap: 15px;
+}
+
+@media (min-width: 768px) {
+  .uldiseñonav-2 {
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+}
+.estilo-h1 {
+  color: rgb(154, 32, 140);
+  font-style: oblique;
+  font-variant-position: normal;
+  text-align: center;
+  border-style: dotted;
+  padding-bottom: 20px;
+}
+
+/*Estilo del carrousel*/
+@media (min-width: 50px) {
+  #carouselExampleIndicators {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+.carousel-inner {
+  height: 500px;
+  margin-bottom: 50px;
+  border-radius: 10%;
+}
+
+/*Estilos de íconos*/
+.estilo-ícono {
+  margin: 0 auto;
+}
+
+#section-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+.icono-text {
+  display: flex;
+  text-align: left;
+}
+
+#equipo img {
+  border-style: ridge;
+  width: 100%;
+  height: 50%;
+  margin: 0 auto;
+  height: 400px;
+  margin-bottom: 50px;
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(226, 153, 43);
+}
+
+.card-equipo {
+  width: 100%;
+  height: 50%;
+  margin: 10px 10px;
+  padding: 5px;
+}
+
+/*Diseño de CARDS - Servicios*/
+#cards-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media (min-width: 768px) {
+  #cards-servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+@media (min-width: 992px) {
+  #cards-servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+.card-header {
+  background-image: linear-gradient(to right, rgb(224, 170, 245), aliceblue);
+  font-weight: bold;
+}
+
+.card-text {
+  color: rgb(226, 153, 43);
+}
+
+.card-title {
+  color: aliceblue;
+}
+
+.card-body {
+  color: white;
+  background-color: rgb(83, 17, 109);
+}
+
+.card-footer {
+  font-weight: bold;
+  font-size: smaller;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.párrafos-cards {
+  font-size: small;
+  color: black;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 50px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+#container-cards1, #container-cards3, #container-cards5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  background-image: linear-gradient(to right, aliceblue, rgb(224, 170, 245));
+  color: black;
+  text-align: left;
+  padding: 10px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 768px) {
+  #container-cards1, #container-cards3, #container-cards5 {
+    flex-direction: row;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    padding: 10px;
+  }
+}
+#container-cards2, #container-cards4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgb(224, 170, 245), aliceblue);
+  color: black;
+  text-align: left;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  #container-cards2, #container-cards4 {
+    flex-direction: row;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    padding: 10px;
+  }
+}
+.k {
+  grid-area: main;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+.h5-card {
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+/*Diseño de CARDS - Servicios*/
+#cards-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+@media (min-width: 768px) {
+  #cards-servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+@media (min-width: 992px) {
+  #cards-servicios {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+}
+.card-header {
+  background-image: linear-gradient(to right, rgb(224, 170, 245), aliceblue);
+  font-weight: bold;
+}
+
+.card-text {
+  color: rgb(226, 153, 43);
+}
+
+.card-title {
+  color: aliceblue;
+}
+
+.card-body {
+  color: white;
+  background-color: rgb(83, 17, 109);
+}
+
+.card-footer {
+  font-weight: bold;
+  font-size: smaller;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.párrafos-cards {
+  font-size: small;
+  color: black;
+  text-align: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 50px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+#container-cards1, #container-cards3, #container-cards5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  align-content: space-around;
+  background-image: linear-gradient(to right, aliceblue, rgb(224, 170, 245));
+  color: black;
+  text-align: left;
+  padding: 10px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 768px) {
+  #container-cards1, #container-cards3, #container-cards5 {
+    flex-direction: row;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    padding: 10px;
+  }
+}
+#container-cards2, #container-cards4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, rgb(224, 170, 245), aliceblue);
+  color: black;
+  text-align: left;
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  #container-cards2, #container-cards4 {
+    flex-direction: row;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    padding: 10px;
+  }
+}
+.k {
+  grid-area: main;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+.h5-card {
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+/*Estilo formulario de contacto*/
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.form input {
+  width: 100%;
+  height: 30px;
+  margin: 1%;
+  padding: auto;
+  border-radius: 20px;
+  border-color: blueviolet;
+  background-image: linear-gradient(to right, skyblue, violet);
+  text-align: center;
+}
+
+#mensaje-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border-width: 2px;
+  border-color: blueviolet;
+  background-image: linear-gradient(to right, skyblue, violet);
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-left: 20px;
+}
+
+.form label {
+  color: black;
+  padding-top: 5px;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,105 @@
+/*Diseño de CARDS - Servicios*/
+#cards-servicios {
+    @include flex-1;
+      gap: 10px;
+      padding-top: 20px;
+      padding-bottom: 30px;
+      padding-left: 5px;
+      padding-right: 5px;
+  }
+  
+  @media (min-width:768px){
+  #cards-servicios {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+  }
+  }
+  
+  @media (min-width:992px){
+  #cards-servicios {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+  }
+  }
+  
+  .card-header {
+    background-image: $color-4;
+    font-weight: bold;   
+}
+
+.card-text {
+    color: $color-sexto;
+}
+
+.card-title {
+    color: $color-cuarto;       
+}
+
+.card-body {
+    color: $color-primero;
+    background-color: $color-5;
+}
+
+.card-footer {
+    font-weight: $font-weight-negrita;
+    font-size: $font-size-XS;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.párrafos-cards {
+    font-size: $font-size-S;
+    color: $color-tercero;
+    text-align: $align-left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 50px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+#container-cards1, #container-cards3, #container-cards5 {
+    @include flex-4;
+    background-image:linear-gradient(to right, aliceblue, rgb(224, 170, 245));
+    color: $color-6; 
+    text-align: $text-align-left;
+    padding: 10px;  
+    grid-template-columns: repeat(1, 1fr);   
+ }
+     @media (min-width:768px) {
+     #container-cards1, #container-cards3, #container-cards5 { 
+     flex-direction:row;
+     grid-template-rows: repeat(2, 1fr);
+     gap: 15px;
+     padding: 10px;  
+ }
+}
+#container-cards2, #container-cards4 {
+    @include flex-1;
+        background-image:linear-gradient(to right, rgb(224, 170, 245), aliceblue);
+        color: black;
+        text-align: left;
+        padding: 10px;   
+}
+    @media (min-width: 768px) {
+        #container-cards2, #container-cards4 {
+            flex-direction: row;
+            grid-template-rows: repeat(2, 1fr);
+            gap: 15px;
+            padding: 10px;  
+        }
+    }
+    .k {
+        grid-area:main;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 20px;
+        }
+     
+    .h5-card {
+        text-align: left;
+        text-decoration-line:underline;
+    }
+
+
+    
