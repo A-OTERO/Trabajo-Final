@@ -1,6 +1,16 @@
+/*Estilo de img*/
+.img-contact {
+    background-image: url(../img/email.webp);  
+    background-size:cover;
+    background-attachment:fixed; 
+}
+
 /*Estilo formulario de contacto*/
 
 .form {
+    background-image: url(../img/email.webp);  
+    background-size:cover;
+    background-attachment:fixed;
     @include flex-1;  
         width: 100%;
 }        
@@ -28,7 +38,8 @@
   }  
   
   .form label {
-      color: $color-tercero; 
+      color: $color-tercero;
+      font-weight: $font-weight-negrita; 
       padding-top: 5px;
       margin-top: 15px;  
   } 

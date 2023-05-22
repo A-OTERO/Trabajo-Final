@@ -535,8 +535,18 @@ a {
   background-image: linear-gradient(to right, blue, white, blueviolet, skyblue);
 }
 
+/*Estilo de img*/
+.img-contact {
+  background-image: url(../img/email.webp);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 /*Estilo formulario de contacto*/
 .form {
+  background-image: url(../img/email.webp);
+  background-size: cover;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -572,17 +582,25 @@ a {
 
 .form label {
   color: black;
+  font-weight: bold;
   padding-top: 5px;
   margin-top: 15px;
 }
 
 /*Estilo de iframes*/
 iframe {
-  width: 400px;
-  height: 230px;
+  width: 200px;
+  height: 110px;
   padding: 20px 30px 30px 50px;
 }
 
+@media (min-width: 1024px) {
+  iframe {
+    width: 400px;
+    height: 230px;
+    padding: 20px 30px 30px 50px;
+  }
+}
 #noticiasimg {
   background-image: url(../img/personas-en-red-contacto.jpg);
   background-size: cover;

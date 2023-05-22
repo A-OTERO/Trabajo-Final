@@ -1,8 +1,16 @@
 /*Estilo de iframes*/
 iframe {
-    width:400px;
-    height:230px;
+    width:200px;
+    height:110px;
     padding: 20px 30px 30px 50px;
+}
+
+@media (min-width: 1024px){
+    iframe {
+        width:400px;
+        height:230px;
+        padding: 20px 30px 30px 50px;
+    }
 }
 
 #noticiasimg {
