@@ -495,9 +495,11 @@ a {
 }
 
 .titulo-explicación-grid {
-  font-size: small;
+  font-size: medium;
   font-weight: bold;
   text-align: left;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .parrafo-grid {

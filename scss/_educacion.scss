@@ -74,9 +74,11 @@ background-image:linear-gradient(to right, blueviolet, skyblue, blueviolet);
 }
 
 .titulo-explicación-grid {
-    font-size:small;
+    font-size:medium;
     font-weight: bold;
     text-align: left;
+    text-decoration: underline;
+    text-transform: uppercase;
 }
 
 .parrafo-grid {
